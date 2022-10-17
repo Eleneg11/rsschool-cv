@@ -1,9 +1,8 @@
 :root {
   --color-white: #f3f3f3;
-  --color-darkblue: #1b1b32;
+  --color-darkblue: #505091;
   --color-darkblue-alpha:
-  rgba(27, 27, 50, 0.8);
-  --color-green: #37af65;
+  rgba(80, 80, 145, 0.8);
 }
 
 body {
@@ -27,11 +26,11 @@ body::before {
   background: var(--color-darkblue);
   background-image: linear-gradient(
       115deg,
-      rgba(58, 58, 158, 0.8),
+      rgba(80, 80, 145, 0.8),
       rgba(136, 136, 206, 0.7)
     ),
-    url(https://png.pngtree.com/background/20210710/original/pngtree-business-resume-background-material-picture-image_999584.jpg);
-  background-size: cover;
+    url(https://wallpapercave.com/wp/wp7447260.png);
+  background-size: 1024px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -51,15 +50,38 @@ p {
   margin-bottom: 0.5rem;
 }
 
-.container {
+/*.container {
   width: 100%;
   margin: 3.125rem auto 0 auto;
+}*/
+
+
+.container{
+  margin: 20px auto;
+  width: 1024px;
+  font-family: "Cabin", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  /*background-color: #ffffff;*/
+  box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+
+.experience{
+  margin: 20px auto;
+  width: 900px;
+  font-family: "Cabin", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  /*background-color: #ffffff;*/
+  box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);	
 }
 
 .header {
   padding: 0 0.625rem;
   margin-bottom: 1.875rem;
 }
+
+
 
 .description {
   font-style: italic;
