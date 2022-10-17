@@ -1,1 +1,1 @@
-https://eleneg11.github.io/rsschool-cv/cv
+https://eleneg11.github.io/rsschool-cv/
